@@ -1,0 +1,30 @@
+{
+  "name": "appium-solo",
+  "version": "1.0.1",
+  "description": "Run E2E tests with a dedicated appium instance per device.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jondot/appium-solo.git"
+  },
+  "keywords": [
+    "appium",
+    "jenkins",
+    "ci"
+  ],
+  "author": "Dotan Nahum <jondotan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jondot/appium-solo/issues"
+  },
+  "homepage": "https://github.com/jondot/appium-solo#readme",
+  "dependencies": {
+    "bluebird": "^3.4.4",
+    "bluebird-flexible-retry": "^1.0.1",
+    "execa": "^0.4.0",
+    "request-promise": "^4.1.1"
+  }
+}
