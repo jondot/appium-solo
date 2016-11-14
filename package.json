@@ -1,6 +1,6 @@
 {
   "name": "appium-solo",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run E2E tests with a dedicated appium instance per device.",
   "main": "index.js",
   "scripts": {
@@ -13,6 +13,10 @@
   "keywords": [
     "appium",
     "jenkins",
+    "webdriver",
+    "webdriver.io",
+    "wd",
+    "selenium",
     "ci"
   ],
   "author": "Dotan Nahum <jondotan@gmail.com>",
@@ -25,6 +29,7 @@
     "bluebird": "^3.4.4",
     "bluebird-flexible-retry": "^1.0.1",
     "execa": "^0.4.0",
+    "request": "^2.74.0",
     "request-promise": "^4.1.1"
   }
 }

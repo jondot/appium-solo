@@ -30,6 +30,21 @@ const Solo = require('appium-solo')
       .catch((err)=>driver.quit())
 ```
 
+## Webdriver.io
+
+Appium-Solo includes a quick integration for [webdriver.io](http://webdriver.io).
+
+In your `wdio.conf.js` include this:
+
+```javascript
+    services: [
+      require('appium-solo/wdio')
+    ],
+```
+
+See the [webdriver.io example](examples/webdriver.io/) for more.
+
+
 ## Options
 
 There are various knobs you can use, such as to specify locations of binaries,

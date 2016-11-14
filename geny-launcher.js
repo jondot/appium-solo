@@ -27,6 +27,9 @@ class Genylauncher {
       return Promise.resolve().throw('No emulator name given')
     }
 
+    // When GM gets a request to launch the *same* device (when it already is
+    // up), it will just bring it to front - so no harm done, no need to guard
+    // this.
     execa.shell(`${this.opts.gmapp} --vm-name '${info.name}' > /dev/null 2>&1`)
           .catch(err => console.log('gm-shell', err))
 
